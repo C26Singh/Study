@@ -10,3 +10,7 @@
 
 - Debugging Git:  
   export GIT_SSH_COMMAND="ssh -v"
+
+## How to generate ssh key
+ - Generate SSH key pair for first GitHub account  
+   ssh-keygen -t rsa -b 4096 -C "your_email@example.com" -f "filename"
